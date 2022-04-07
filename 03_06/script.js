@@ -20,5 +20,11 @@ const backpack = {
     this.strapLength.right = lengthRight;
   },
 };
-
+//dot notation
 console.log("The backpack object:", backpack);
+console.log("The backpack color:", backpack.color);
+console.log("The backpack pocketNum:", backpack.pocketNum);
+console.log("The backpack left strap lengh:", backpack.strapLength.left);
+
+//square bracket notation
+console.log("The backpack right strap lengh:", backpack["strapLength"]);
