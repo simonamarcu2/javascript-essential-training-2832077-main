@@ -1,4 +1,4 @@
-class WaterBootle {
+class Water {
   constructor(
     name,
     volume,
@@ -19,4 +19,4 @@ class WaterBootle {
   }
 }
 
-export default WaterBootle;
+export default Water;

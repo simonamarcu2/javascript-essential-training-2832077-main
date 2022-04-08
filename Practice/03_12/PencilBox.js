@@ -1,5 +1,3 @@
-
-
 class PencilBox {
   constructor(
     name,
