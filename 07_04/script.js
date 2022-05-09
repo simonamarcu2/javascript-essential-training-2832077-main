@@ -9,3 +9,22 @@
  */
 
 
+let learning = ["HTML", "CSS", "JavaScript", "React", "Redux", "Node", "MongoDB", "MySQL"];
+
+const found = learning.find(item => item === "Redux");
+
+// learning.pop();
+// learning.unshift(learning.pop());
+// learning.sort();
+// learning.splice("React", 0);
+learning.find(function (value, index) {
+  if (index === "Redux") {
+    console.log('Deleting this value', value);
+    delete learning[4];
+  }
+});
+
+console.log(learning.pop());
+
+console.log(learning);
+console.log(found);

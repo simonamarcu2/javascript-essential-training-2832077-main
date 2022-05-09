@@ -1,5 +1,7 @@
-import Book from "../Challenge/Book.js";
+import Book from "./Book.js.js";
 
+
+// Book param order: title, author, ISBN, price, publishedDate, publisher, pages, description, currentPage, totalPages.
 const guardianAngel = new Book(
   "The Guardian Angel",
   "George Lazar",
